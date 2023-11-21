@@ -1,0 +1,44 @@
+.logo {
+    width: 70px;
+    height: 70px;
+}
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../html/images/web_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 19px;
+   
+}
+.navbar ul li a {
+    text-decoration: none;
+    margin: 0px 15px;
+    color: darkgreen;
+    
+}
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.navbar ul li:hover::after {
+    cursor: pointer;
+    width: 100%;
+}
+.navbar ul li::after {
+    content: "";
+    
+}
+footer {
+    text-align: center;
+    margin: 140px 0px;
+    color: rgb(189, 180, 187);
+    font-size: 25px;
+    width: 100%;
+}
